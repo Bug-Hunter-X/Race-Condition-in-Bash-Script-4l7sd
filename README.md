@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in a bash script.  Two processes write to files concurrently, resulting in unpredictable output. The bug is resolved by using locking mechanisms to prevent interleaved writes and ensure data integrity.
